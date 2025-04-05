@@ -37,4 +37,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: imc_executable
-          path: dist/imc_app # O caminho do executável gerado pelo PyInstaller
+          path: dist/main.exe # O caminho do executável gerado pelo PyInstaller
