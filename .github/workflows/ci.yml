@@ -31,7 +31,7 @@ jobs:
 
       - name: Build executable
         run: |
-          pyinstaller --onefile main.py # Criar executável a partir do main.py
+          pyinstaller --onefile imc_app/main.py # Criar executável a partir do main.py
 
       - name: Archive Executable
         uses: actions/upload-artifact@v4
